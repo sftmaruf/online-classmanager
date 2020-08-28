@@ -1,0 +1,8 @@
+.course-cart-container{
+    display: flex;
+}
+.courses-viewer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 81%;
+}
