@@ -19,7 +19,7 @@ const Cart = (props) => {
             <div className="image-hint">
                 <h5>You Choose: &emsp;&emsp;&emsp;&emsp;&emsp;<small>Click icon for deselect</small></h5>
                 {
-                    props.course.map(course => <img id = "image" onClick = {() => props.deleteMechanism(course)} src={course.imag}></img>) //appear icons for selected course
+                    props.course.map(course => <img id = "image" onClick = {() => props.deleteMechanism(course)} src={course.imag}></img>)
                 }
             </div>
         </div>

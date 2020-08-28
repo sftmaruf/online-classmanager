@@ -36,10 +36,10 @@ const Courses = () => {
         <div className="course-cart-container">
             <div className="courses-viewer">
                 {
-                    fakeData.map(course => <Course course={course} eventHandler={eventHandler} key={course.id}></Course>) //sending the course data to Course
+                    fakeData.map(course => <Course course={course} eventHandler={eventHandler} key={course.id}></Course>)
                 }
             </div>
-            <Cart course = {course} total = {total} deleteMechanism = {deleteMechanism} key = {course.id}></Cart> {/*sending selected course data to Cart*/}
+            <Cart course = {course} total = {total} deleteMechanism = {deleteMechanism} key = {course.id}></Cart> 
         </div>
     );
 };
